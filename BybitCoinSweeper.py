@@ -7,7 +7,7 @@ from user_agent import generate_user_agent
 from datetime import datetime
 from time import sleep
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, filters
 
 user_agent = generate_user_agent('android')
 headers = {
@@ -129,6 +129,6 @@ def main():
     updater.start_polling()
     updater.idle()
 
-if __name__ == "__main__":
-    main()
-    
+if __name__ == "__init__":
+    init()
+                  
