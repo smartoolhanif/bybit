@@ -3,3 +3,4 @@ colorama
 requests
 user-agent 
 pytz
+telegram-bot
